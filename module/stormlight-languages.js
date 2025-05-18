@@ -30,6 +30,19 @@ Hooks.once("polyglot.init", (LanguageProvider) => {
 			}
 		}
 		
+		async getLanguages() {
+			const langs = {};
+			const languagesSetting = game.settings.get("polyglot", "Languages");
+			for (let lang in this.languages) {
+				langs[lang] = {
+					label: this.languages[lang].label || lang,
+					font: languagesSetting[lang]?.font || this.languages[lang]?.font || this.defaultFont,
+					rng: languagesSetting[lang]?.rng ?? "default",
+				};
+			}
+			this.languages = langs;
+		}
+		
 		getUserLanguages(actor) {
 			const known = new Set();
 			const literate = new Set();
