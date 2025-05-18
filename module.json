@@ -9,7 +9,7 @@
 	],
 	"version": "0.1.0",
 	"manifest": "https://github.com/boxfriend/Cosmere-RPG-Polyglot/manifest.json"
-	"download": ""
+	"download": "https://github.com/boxfriend/Cosmere-RPG-Polyglot/releases/latest/package.zip"
 	"compatibility": {
 		"minimum": "12",
 		"verified": "12"
