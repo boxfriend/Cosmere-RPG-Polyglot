@@ -1,44 +1,32 @@
 Hooks.once("polyglot.init", (LanguageProvider) => {
 	class StormlightLanguageProvider extends LanguageProvider {
+		defaultFont = "Tengwar";
 		languages = {
 			Alethi: {
-				font: "Tengwar",
 			},
 			Azish: {
-				font: "Tengwar",
 			},
 			Dawnchant: {
-				font: "Tengwar",
 			},
 			Herdazian: {
-				font: "Tengwar",
 			},
 			Iri: {
-				font: "Tengwar",
 			},
 			Kharbranthian: {
-				font: "Tengwar",
 			},
 			Singer: {
-				font: "Tengwar",
 			},
 			Natan: {
-				font: "Tengwar",
 			},
 			Reshi: {
-				font: "Tengwar",
 			},
 			Shin: {
-				font: "Tengwar",
 			},
 			Thaylen: {
-				font: "Tengwar",
 			},
 			Unkalaki: {
-				font: "Tengwar",
 			},
 			Veden: {
-				font: "Tengwar",
 			}
 		}
 		
