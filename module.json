@@ -7,9 +7,9 @@
 			"discord": "boxfriend"
 		}
 	],
-	"version": "0.1.0",
-	"manifest": "https://github.com/boxfriend/Cosmere-RPG-Polyglot/manifest.json"
-	"download": "https://github.com/boxfriend/Cosmere-RPG-Polyglot/releases/latest/package.zip"
+	"version": "0.1.1",
+	"manifest": "https://raw.githubusercontent.com/boxfriend/Cosmere-RPG-Polyglot/refs/heads/main/module.json",
+	"download": "https://github.com/boxfriend/Cosmere-RPG-Polyglot/releases/latest/download/package.zip",
 	"compatibility": {
 		"minimum": "12",
 		"verified": "12"
